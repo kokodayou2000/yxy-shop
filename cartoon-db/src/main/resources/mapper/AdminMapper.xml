@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.mapper.AdminMapper">
+
+    <resultMap type="com.example.entity.Admin" id="AdminResult">
+<!--   column(数据库的主键)     property(实体类的)-->
+        <id     column="user_id"      jdbcType="BIGINT"     property="userId"        />
+        <result column="role_name"    jdbcType="VARCHAR"    property="roleName"      />
+        <result column="nick_name"    jdbcType="VARCHAR"    property="nickName"      />
+        <result column="email"        jdbcType="VARCHAR"    property="email"         />
+        <result column="pwd"          jdbcType="VARCHAR"    property="pwd"           />
+        <result column="last_login"   jdbcType="TIMESTAMP"  property="lastLogin"         />
+        <result column="create_time"  jdbcType="TIMESTAMP"  property="createTime"    />
+        <result column="create_by"    jdbcType="VARCHAR"    property="createBy"      />
+        <result column="remark"       jdbcType="VARCHAR"    property="remark"      />
+    </resultMap>
+
+
+    <insert id="save" parameterType="com.example.entity.Admin" >
+        insert into admin_info (nick_name,email,pwd,remark,create_by) values (#{nickName},#{email},#{pwd},#{remark},#{createBy} )
+    </insert>
+
+    <select id="getAllAdmin" resultMap="AdminResult" >
+                select * from admin_info
+        </select>
+
+
+</mapper>

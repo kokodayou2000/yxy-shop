@@ -4,11 +4,79 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b5a59de-c9a4-4931-a54a-8ce815c9469a" name="变更" comment="" />
+    <list default="true" id="0b5a59de-c9a4-4931-a54a-8ce815c9469a" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-admin/src/main/java/com/example/YxyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-admin/src/main/java/com/example/web/controller/dao/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-admin/src/main/java/com/example/web/controller/dao/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-admin/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-common/src/main/java/com/example/common/annotation/RepeatSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-common/src/main/java/com/example/common/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-common/src/main/java/com/example/common/core/text/CharsetKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-common/src/main/java/com/example/common/core/text/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-common/src/main/java/com/example/common/core/text/StrFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-common/src/main/java/com/example/common/entry/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-common/src/main/java/com/example/common/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-db/src/main/java/com/example/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-db/src/main/java/com/example/entity/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-db/src/main/java/com/example/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-db/src/main/java/com/example/mapper/GoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-db/src/main/java/com/example/service/IAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-db/src/main/java/com/example/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-db/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-framework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-framework/src/main/java/com/example/framework/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-framework/src/main/java/com/example/framework/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-framework/src/main/java/com/example/framework/interceptor/RepeatSubmitInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartoon-framework/src/main/java/com/example/framework/interceptor/impl/SameUrlDataInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-admin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-admin/src/main/java/com/example/YxyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-admin/src/main/java/com/example/web/controller/dao/GoodsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cartoon-db/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-admin/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-common/src/main/java/com/example/common/constant/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-common/src/main/java/com/example/common/core/text/CharsetKit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-common/src/main/java/com/example/common/core/text/Convert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-common/src/main/java/com/example/common/core/text/StrFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-common/src/main/java/com/example/common/enums/DataSourceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/cartoon-common/src/main/java/com/example/common/enums/DataSourceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-common/src/main/java/com/example/common/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-common/src/main/java/com/example/common/utils/spring/SpringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cartoon-common/src/main/java/com/example/common/utils/spring/SpringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cartoon-db/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-db/src/main/java/com/example/entity/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-db/src/main/java/com/example/mapper/GoodsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-db/src/main/java/com/example/service/IGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cartoon-db/src/main/java/com/example/service/IGoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-db/src/main/java/com/example/service/impl/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cartoon-db/src/main/java/com/example/service/impl/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-db/src/main/resources/mapper/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-framework/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-framework/src/main/java/com/example/framework/config/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yxy-framework/src/main/java/com/example/framework/config/MyBatisConfig.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,14 +91,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/03062/Desktop/项目/day2/Restkeeper/Restkeeper&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2203dea164c1d3ccf2b9aad71154c4ad&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\03062\Desktop\Code\java\project\yxy\yxy-shop\yxy-admin\src\main\resources" />
+      <recent name="C:\Users\03062\Desktop\Code\java\project\yxy\yxy-shop\yxy-common\src\main\java\com\example\common\utils" />
+      <recent name="C:\Users\03062\Desktop\Code\java\project\yxy\yxy-shop\yxy-framework\src\main\java\com\example\framework\config" />
+      <recent name="C:\Users\03062\Desktop\Code\java\project\yxy\yxy-shop\yxy-db\src\main\resources\mapper" />
+      <recent name="C:\Users\03062\Desktop\Code\java\project\yxy\yxy-shop\yxy-db\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.common.enums" />
+      <recent name="com.example.framework.config.properties" />
+      <recent name="com.example.framework.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.YxyApplication">
+    <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6">
+      <method v="2" />
+    </configuration>
+    <configuration name="YxyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cartoon-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.YxyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -39,7 +153,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680247519994</updated>
+      <workItem from="1680247521391" duration="8909000" />
+      <workItem from="1680357888785" duration="4958000" />
+      <workItem from="1680403666121" duration="7771000" />
+      <workItem from="1680435605553" duration="5160000" />
+      <workItem from="1680443159201" duration="73000" />
+      <workItem from="1680443309157" duration="109000" />
+      <workItem from="1680447126353" duration="987000" />
+      <workItem from="1680486824788" duration="9000" />
+      <workItem from="1680593146500" duration="4514000" />
+      <workItem from="1680610508437" duration="684000" />
+      <workItem from="1680614923284" duration="600000" />
+      <workItem from="1680659287932" duration="644000" />
+      <workItem from="1680680564036" duration="599000" />
+      <workItem from="1680682736837" duration="814000" />
+      <workItem from="1680790349427" duration="1828000" />
+      <workItem from="1680864320722" duration="599000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
